@@ -4,18 +4,14 @@ function tarea()
 	var email = document.getElementById("email") ;
 	var message = document.getElementById("message");
 	
-	if (name.value == "")
+	if (name.value!= "" && 
+	ordenar_valor !=""&&
+	message != "" &&)
 	{	
-		alert("escribir nombre completo");
+	alert('todos los campo estan lleno');
 	}
-	else if (email.value =="")
-	{
-		alert("escribe correo actual");
-	}
-	else if (message.value =="")
-	{
-		alert("escriba una mesaje");
-	}
+
+	
 	else
 	{
 		alert("datos salvos con exito");
